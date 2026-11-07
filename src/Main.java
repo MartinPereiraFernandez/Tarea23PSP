@@ -30,6 +30,8 @@ public class Main {
                 } catch (UnknownHostException e) {
                     System.out.println("El dominio "+dominio+" no existe...");
                 }
+                System.out.print("Dominio: ");
+                dominio = sc.nextLine().trim();
             }
         }
     }
